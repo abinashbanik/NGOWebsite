@@ -1,0 +1,22 @@
+.container{
+/* position: absolute; */
+/* top: 10%; */
+    
+width: 100%;
+}
+    
+.text{
+/* display: inline; */
+width: 100%;
+}
+    
+.read-or-hide{
+color: rgb(52, 206, 233);
+cursor: pointer;
+}
+/* .teble {
+    border-color:blue;
+    border-radius: 2px;
+
+} */
+    
