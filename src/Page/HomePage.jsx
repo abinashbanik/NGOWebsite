@@ -5,9 +5,13 @@ import Content from "../Components/ContentReadMore/Readmore";
 import Feed from '../Components/Facebook/facebook';
 const HomePage = () => {
     return (
-        <div className="flex px-10 gap-10 mx-20">
+        <div className="md:flex md:mx-14 lg:mx-40 bg-gray-200 flex-grow">
             <Content />
-            <Feed />
+            <div className="mb-8 flex justify-center md:mt-10">
+                {/* //flex justify-center my-10 md:my-4  */}
+                <Feed />
+            </div>
+
         </div>
     );
 };

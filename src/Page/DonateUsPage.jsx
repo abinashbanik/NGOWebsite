@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import React from 'react';
 
-import Pdf from "../PDF/pdf";
 const DonateUsPage = () => {
 
 

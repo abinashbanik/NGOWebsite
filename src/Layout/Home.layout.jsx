@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react'
 
 //components
 import Navbar from '../Components/Navbar';
@@ -8,7 +8,7 @@ import Footer1 from "../Components/footer1";
 const Homelayout = (props) => {
     return (
         <>
-            <div className="bg-gray-100">
+            <div className="bg-gray-100 min-h-screen">
                 <Navbar />
                 <HeroCarousal />
                 {props.children}

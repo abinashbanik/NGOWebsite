@@ -54,11 +54,3 @@ const Content = () => {
 
 export default Content;
 
-{/* <tr>Child Welfare Sector</tr>
-                <tr>Women Welfare Sector</tr>
-                <tr>Women Welfare Sector</tr>
-                <tr>Women Welfare Sector</tr>
-                <tr>Women Welfare Sector</tr>
-                <tr>Women Welfare Sector</tr>
-                <tr>Women Welfare Sector</tr>
-                <tr>Women Welfare Sector</tr>  */}

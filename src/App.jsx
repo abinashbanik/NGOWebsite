@@ -1,10 +1,12 @@
-import React, { Fragment } from "react";
+import React, { Component } from 'react'
+
 import "./index.css"
 
-import { BrowserRouter as Router } from "react-router-dom";
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+//Components
+import Footer1 from "./Components/footer1";
 //HOC
 import HomeHOC from "./HOC/Home.HOC";
 import AboutHOC from "./HOC/About.HOC";
@@ -22,6 +24,7 @@ function App() {
       <AboutHOC path="/about" exact component={AboutPage} />
       <AboutHOC path="/gallery" exact component={Photos} />
       <AboutHOC path="/donateUs" exact component={DonateUsPage} />
+      {/* <Route exact path="/footer" render={props => (<Footer1 />)} /> */}
     </>
 
   );

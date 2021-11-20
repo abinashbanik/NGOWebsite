@@ -1,5 +1,4 @@
-import React, { useState, useCallback } from 'react';
-import { render } from 'react-dom';
+import React, { useState } from 'react';
 import ImageViewer from 'react-simple-image-viewer';
 
 import PhotoCollection from "./photoCollection";

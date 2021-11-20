@@ -15,7 +15,7 @@ const Feed = React.memo((props) => {
     }, []);
 
     return (
-        <React.Fragment >
+        <React.Fragment>
             <div id="fb-root"></div>
             <div
                 class="fb-page"
@@ -27,14 +27,12 @@ const Feed = React.memo((props) => {
                 data-adapt-container-width="true"
                 data-hide-cover="false"
                 data-show-facepile="true"
-                className="mt-40 "
             >
                 <blockquote
                     cite="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/"
                     class="fb-xfbml-parse-ignore"
                 >
-                    <a href="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/">
-                        "Malancha"(Sahitya, Sanskriti & Samajik Kendra)</a>
+                    <a href="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/">"Malancha"(Sahitya, Sanskriti & Samajik Kendra)</a>
                 </blockquote>
             </div>
         </React.Fragment>
@@ -43,5 +41,5 @@ const Feed = React.memo((props) => {
 export default Feed;
 
 
-
+//"Malancha"(Sahitya, Sanskriti & Samajik Kendra)
 //https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/

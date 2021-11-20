@@ -33,7 +33,7 @@ const HeroCarousal = () => {
 
   return (
     <>
-      <div className="hidden lg:block">
+      <div className="">
         <HeroSlider {...settingsLG}>
           {images.map((image) => (
             <div className="w-full h-96 px-2 ">
