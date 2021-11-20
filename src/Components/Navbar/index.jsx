@@ -90,7 +90,7 @@ const NavLg = () => {
             <a className="hover:underline hover:text-white " href="/gallery">Gallery</a>
             <a className="hover:underline hover:text-white " href="/donateUs">Donate Us</a>
             <a className="hover:underline hover:text-white " href="https://drive.google.com/file/d/1k6kl0i8mStnTsd0gPPnHb5x_feh1joOh/view?usp=sharing">Join Us</a>
-            <a className="hover:underline hover:text-white " href="">Contact Us</a>
+            <a className="hover:underline hover:text-white " href="/Footer1">Contact Us</a>
 
           </div>
           <div className="">
