@@ -27,7 +27,7 @@ const Feed = React.memo((props) => {
                 data-adapt-container-width="true"
                 data-hide-cover="false"
                 data-show-facepile="true"
-                className="mt-30 "
+                className="mt-40 "
             >
                 <blockquote
                     cite="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/"
