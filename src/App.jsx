@@ -12,6 +12,7 @@ import AboutHOC from "./HOC/About.HOC";
 import HomePage from "./Page/HomePage";
 import AboutPage from "./Page/AboutPage";
 import DonateUsPage from "./Page/DonateUsPage";
+import Photos from "./Photo/photosPage";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <>
       <HomeHOC path="/" exact component={HomePage} />
       <AboutHOC path="/about" exact component={AboutPage} />
+      <AboutHOC path="/gallery" exact component={Photos} />
       <AboutHOC path="/donateUs" exact component={DonateUsPage} />
     </>
 

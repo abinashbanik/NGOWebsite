@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import ButtonMailto from '../mailLink';
+
 const Footer1 = () => {
     return (
         <>
-            <div className="bottom-0 bg-red-600 w-full h-full">
+            <div className="bottom-0  bg-gradient-to-b from-red-700 via-red-500 to-red-500 w-full h-full">
                 <div className="flex gap-2 justify-center px-28 py-10">
                     <div className="w-full h-full flex flex-col gap-2 text-white px-10">
                         <h1 className="text-2xl">Address</h1>
@@ -35,7 +34,7 @@ const Footer1 = () => {
                         </h3>
                     </div>
                 </div>
-                <div className="w-full flex justify-center bg-red-500 ">
+                <div className="w-full flex justify-center bg-red-600 ">
                     <h2>Malancha(Sahitya, Sanskriti & Samajik Kendra)© All Rights Reserved. | Website Developed By: Redisk Technology</h2>
                 </div>
             </div>
