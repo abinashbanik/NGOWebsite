@@ -182,7 +182,7 @@ const NavLg = () => {
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-gradient-to-r from-white to-green-600 filter drop-shadow-lg mb-1 w-full  p-4">
+      <nav id="navbar" className="bg-gradient-to-r from-white to-green-600 filter drop-shadow-lg mb-1 w-full  p-4">
         <div className="md:hidden z-40">
           {/* Mobile screen */}
           <NavSm />

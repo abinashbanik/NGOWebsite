@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-scroll'
 
 const Footer1 = () => {
     return (
@@ -33,12 +34,18 @@ const Footer1 = () => {
                             <a href="doc2" className="hover:text-yellow-400">2nd Report</a>
                         </h3>
                     </div>
+
                 </div>
-                <div className="bottom-0  w-full md:flex py-4 md:py-0 pl-8 md:pl-24 items-center bg-red-600 text-xs md:text-sm">
+                <div className="flex justify-center pr-8 w-full">
+                    <button><Link className="shadow-lg bg-blue-300 border border-gray-400 p-2 rounded-lg w-28 hover:animate-pulse" activeClass=" active" to="navbar" spy={true} smooth={true}>Back To Top</Link>
+</button>
+                </div>
+                <div className="bottom-0  w-full md:flex py-4 md:py-0 pl-8 md:pl-80 items-center bg-red-600 text-xs md:font-semibold md:mt-2 md:h-8 md:text-md">
                     <h2>Malancha(Sahitya, Sanskriti & Samajik Kendra)</h2>
                     <h2>© All Rights Reserved.</h2>
                     <h2>| Website Developed By: Redisk Technology</h2>
                 </div>
+
             </div>
         </>
     );

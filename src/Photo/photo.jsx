@@ -29,21 +29,23 @@ const Photos = () => {
     };
 
     return (
-        <div className="my-20 mx-10 ">
+        <div>
+            <div className="my-10 mx-10 md:ml-24 ">
 
 
-            {isViewerOpen && (
-                <ImageViewer
-                    src={photos}
-                    currentIndex={currentImage}
-                    disableScroll={false}
-                    onClose={closeImageViewer}
-                />
-            )}
-            <div className="flex flex-wrap gap-2">
-                {photos.map((photo) => (
-                    <PhotoCollection image={photo} openImageViewer={openImageViewer} />
-                ))}
+                {isViewerOpen && (
+                    <ImageViewer
+                        src={photos}
+                        currentIndex={currentImage}
+                        disableScroll={false}
+                        onClose={closeImageViewer}
+                    />
+                )}
+                <div className="flex flex-wrap gap-2">
+                    {photos.map((photo) => (
+                        <PhotoCollection image={photo} openImageViewer={openImageViewer} />
+                    ))}
+                </div>
             </div>
         </div>
     );
