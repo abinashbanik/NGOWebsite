@@ -34,7 +34,7 @@ const Footer1 = () => {
                         </h3>
                     </div>
                 </div>
-                <div className="bottom-0  w-full md:flex py-4 md:py-0 pl-8 md:pl-0 items-center bg-red-600 text-xs md:text-sm">
+                <div className="bottom-0  w-full md:flex py-4 md:py-0 pl-8 md:pl-24 items-center bg-red-600 text-xs md:text-sm">
                     <h2>Malancha(Sahitya, Sanskriti & Samajik Kendra)</h2>
                     <h2>© All Rights Reserved.</h2>
                     <h2>| Website Developed By: Redisk Technology</h2>

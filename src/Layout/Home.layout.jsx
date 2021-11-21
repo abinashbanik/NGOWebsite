@@ -10,8 +10,10 @@ const Homelayout = (props) => {
         <>
             <div className="bg-gray-100 min-h-screen">
                 <Navbar />
-                <HeroCarousal />
-                {props.children}
+                <div className="hidden md:block">
+                    <HeroCarousal />
+                </div>
+                {props.children}                
                 <Footer1 />
             </div>
         </>

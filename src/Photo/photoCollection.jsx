@@ -4,7 +4,7 @@ const PhotoCollection = (props) => {
     return (
         <>
             <div
-                className="w-56 h- md:w-48 flex flex-col md:h-48"
+                className="w-64 h-64 md:w-48 flex flex-col md:h-48"
                 onClick={props.openImageViewer}
             >
                 <div className="w-full h-full overflow-hidden  rounded-lg">

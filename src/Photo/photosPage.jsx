@@ -29,7 +29,7 @@ const Photos = () => {
     };
 
     return (
-        <div className="my-20 ">
+        <div className="my-20 mx-10 ">
 
 
             {isViewerOpen && (

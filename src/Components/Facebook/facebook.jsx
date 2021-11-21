@@ -21,7 +21,7 @@ const Feed = React.memo((props) => {
                 class="fb-page"
                 data-href="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/"
                 data-tabs="timeline"
-                data-width=""
+                data-width="360"
                 data-height=""
                 data-small-header="false"
                 data-adapt-container-width="true"

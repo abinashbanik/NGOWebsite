@@ -22,9 +22,8 @@ function App() {
     <>
       <HomeHOC path="/" exact component={HomePage} />
       <AboutHOC path="/about" exact component={AboutPage} />
-      <AboutHOC path="/gallery" exact component={Photos} />
-      <AboutHOC path="/donateUs" exact component={DonateUsPage} />
-      {/* <Route exact path="/footer" render={props => (<Footer1 />)} /> */}
+      <HomeHOC path="/gallery" exact component={Photos} />
+      <HomeHOC path="/donateUs" exact component={DonateUsPage} />      
     </>
 
   );
