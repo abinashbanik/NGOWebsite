@@ -11,7 +11,7 @@ const AboutPage = () => {
                     className="w-full mt-5 h-80 rounded-md"
                 />
             </div>
-            <div className="mx-20 ">
+            <div className="mx-4 md:mx-20 ">
                 <p className="my-8 text-justify">
                     <h6>Malancha (A Social Welfare Society) established in Agartala, Tripura, with a mission to help people &
                         sincerely working with the society for betterment of the society. We are working for those people who really need help.
