@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 import logo from "../Resources/logo.png";
 import { IoIosMail } from "react-icons/io";
 import { AiTwotonePhone, AiOutlineHome, AiOutlineClose } from "react-icons/ai";
+import { SiGooglemaps } from "react-icons/si";
 
 
 const NavSm = () => {
@@ -13,15 +14,16 @@ const NavSm = () => {
   // let menuMask;
   if (showMenu) {
     menu =
-      <div onClick={() => setShowMenu(false)} className="fixed transition duration-500 ease-in-out bg-blue-600 bg-gradient-to-l from-white to-green-300 filter top-20 left-0 w-1/2 h-96 z-40 rounded-br-lg drop-shadow-lg">
+      <div onClick={() => setShowMenu(false)} className="fixed transition duration-500 ease-in-out bg-gray-200 filter top-20 left-0 w-1/2 h-96 z-40 rounded-br-lg drop-shadow-lg">
         <div className="flex flex-col gap-1 w-20 ml-8 mt-4">
           <a className="hover:underline hover:text-white hover:bg-gradient-to-l from-white to-green-300 hover:shadow-lg border border-gray-400 p-2 flex gap-1 rounded-lg " href="/"><AiOutlineHome className=" text-2xl" />Home</a>
           <a className="hover:underline hover:text-white hover:bg-gradient-to-l from-white to-green-300 hover:shadow-lg border border-gray-400 p-2 flex rounded-lg" href="/about">About</a>
           <a className="hover:underline hover:text-white hover:bg-gradient-to-l from-white to-green-300 hover:shadow-lg border border-gray-400 p-2 rounded-lg w-20" href="/gallery">Gallery</a>
           <a className="hover:underline hover:text-white hover:bg-gradient-to-l from-white to-green-300 hover:shadow-lg border border-gray-400 p-2 rounded-lg w-24 " href="/donateUs">Donate Us</a>
           <a className="hover:underline hover:text-white hover:bg-gradient-to-l from-white to-green-300 hover:shadow-lg border border-gray-400 p-2 rounded-lg w-24" href="https://drive.google.com/file/d/1k6kl0i8mStnTsd0gPPnHb5x_feh1joOh/view?usp=sharing">Join Us</a>
-          <Link className="hover:underline hover:text-white hover:bg-gradient-to-l from-white to-green-300 hover:shadow-lg border border-gray-400 p-2 rounded-lg w-28 hover:animate-pulse" activeClass=" active" to="contact" spy={true} smooth={true}>Contact Us</Link>
-          <button onClick={() => setShowMenu(false)} className=" fixed right-0 bottom-1 hover:underline hover:text-white hover:bg-red-400 bg-black-300 border border-gray-400 flex w-24 pb-2 pl-2 gap-1 h-8 rounded-lg text-xl"><AiOutlineClose className="text-md mt-1" /> Close</button>
+          <Link className="hover:underline hover:text-white text-md hover: hover:shadow-lg border border-gray-400 p-2 rounded-lg w-28 hover:animate-pulse" activeClass=" active" to="contact" spy={true} smooth={false}>Contact Us</Link>
+          <Link className="hover:underline hover:text-white hover:bg-gradient-to-l from-white to-green-300 text-md hover:shadow-lg border border-gray-400 p-2 rounded-lg w-28 hover:animate-pulse" activeClass=" active" to="contact" spy={true} smooth={true}>To Bottom</Link>
+          <button onClick={() => setShowMenu(false)} className=" fixed right-1 bottom-1 hover:underline hover:text-white hover:bg-red-400 bg-black-300 border border-gray-400 flex w-24 pb-2 pl-2 gap-1 h-8 rounded-lg text-xl"><AiOutlineClose className="text-md mt-1" /> Close</button>
         </div>
 
       </div>
@@ -68,7 +70,7 @@ const NavSm = () => {
               {isOpen && (
                 <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
               )}
-              {!isOpen && (
+              {!showMenu && (
                 <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
               )}
             </svg>
@@ -121,6 +123,9 @@ const NavMd = () => {
                 <AiTwotonePhone className="h-6" /><a href="tel:++91 8415950490">+91-8415950490</a>
               </div>
               <div className="flex justify-between gap-2">
+                <SiGooglemaps className="h-6" /><a href="https://goo.gl/maps/uDcDuSfcX7ZXZisn6">Google Maps</a>
+              </div>
+              <div className="flex justify-between gap-2">
                 <IoIosMail className="h-6" />
                 <a href="malanchassskendra@gmail.com"><h4>Mail Us</h4></a>
               </div>
@@ -166,6 +171,9 @@ const NavLg = () => {
             <div className="text-yellow-400 flex justify-between">
               <div className="flex justify-between gap-2">
                 <AiTwotonePhone className="h-6" /><a href="tel:++91 8415950490">+91-8415950490</a>
+              </div>
+              <div className="flex justify-between gap-2">
+                <SiGooglemaps className="h-6" /><a href="https://goo.gl/maps/uDcDuSfcX7ZXZisn6">Google Maps</a>
               </div>
               <div className="flex justify-between gap-2">
                 <IoIosMail className="h-6" />

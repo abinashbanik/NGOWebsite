@@ -22,7 +22,7 @@ const ReadMore = ({ children }) => {
 const Content = () => {
     return (
         <div>
-            <div className="mx-auto container my-5 py-2 flex px-10 gap-3 w-1/2 ">
+            <div className="mx-auto  my-5 py-2 flex px-10 gap-3 w-full ">
                 <div className="w-full">
                     <h1 className="font-extrabold py-2 text-3xl ">Welcome to Malancha</h1>
                     <h6 className="justify-text text-gray-800  mb-3">

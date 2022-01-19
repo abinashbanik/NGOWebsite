@@ -1,17 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll'
-
+import { SiGooglemaps } from "react-icons/si";
 const Footer1 = () => {
     return (
         <>
-            <div id="contact" className=" bottom-0  bg-gradient-to-b from-red-700 via-red-500 to-red-500 w-full h-auto ">
-                <div className="md:flex md:gap-2 item-center md:px-16 ml-8  pt-10 mb-4 h-auto">
-                    <div className="w-full h-full md:flex flex-col text-white md:px-2 sm:mb-8">
+            <div id="contact" className="bottom-0  bg-gradient-to-b from-red-700 via-red-500 to-red-500 w-full h-auto ">
+                <div className="md:flex md:gap-2 item-center md:px-10 ml-8  pt-10 mb-4">
+                    <div className="w-full h-full  md:flex md:flex-col text-white md:px-2 sm:mb-8">
                         <h1 className="text-3xl md:text-2xl">Address</h1>
                         <h3 className=" ">"Malancha"</h3>
                         <h3>(Sahitya, Sanskriti & Samajik Kendra)</h3>
                         <h3>C/O Smt. Chhaya Banik</h3>
                         <h3>20, Old Kalibari Road, Agartala, Pin:-799001</h3>
+                        <div className="flex gap-2">
+                            <SiGooglemaps className="h-6" /><a href="https://goo.gl/maps/uDcDuSfcX7ZXZisn6">Google Maps</a>
+                        </div>
                     </div>
                     <div className="w-full h-full md:flex flex-col justify-center gap-1 text-white mt-2 md:px-5">
                         <h1 className="text-3xl md:text-2xl">Connect with Us</h1>
@@ -37,13 +40,13 @@ const Footer1 = () => {
 
                 </div>
                 <div className="flex justify-center pr-8 w-full">
-                    <button><Link className="shadow-lg bg-blue-300 border border-gray-400 p-2 rounded-lg w-28 hover:animate-pulse" activeClass=" active" to="navbar" spy={true} smooth={true}>Back To Top</Link>
-</button>
+                    <button><Link className="shadow-lg bg-blue-300 border border-gray-400 p-2 rounded-lg w-28 hover:animate-pulse" activeClass=" active" to="navbar" spy={true} smooth={false}>Back To Top</Link>
+                    </button>
                 </div>
-                <div className="bottom-0  w-full md:flex py-4 md:py-0 pl-8 md:pl-80 items-center bg-red-600 text-xs md:font-semibold md:mt-2 md:h-8 md:text-md">
-                    <h2>Malancha(Sahitya, Sanskriti & Samajik Kendra)</h2>
-                    <h2>© All Rights Reserved.</h2>
-                    <h2>| Website Developed By: Redisk Technology</h2>
+                <div className="bottom-0 text-xs  w-full md:items-left mt-2 flex py-2 md:py-0 pl-8 lg:pl-80 items-center bg-red-600 text-xs lg:font-semibold lg:mt-2 lg:h-8 lg:text-md">
+                    <h6>Malancha(Sahitya, Sanskriti & Samajik Kendra)</h6>
+                    <h6>© All Rights Reserved.</h6>
+                    <h6 className="lg:ml-1">| Website Developed By: Redisk Technology</h6>
                 </div>
 
             </div>

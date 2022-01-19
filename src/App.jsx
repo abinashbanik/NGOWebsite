@@ -23,7 +23,7 @@ function App() {
       <HomeHOC path="/" exact component={HomePage} />
       <AboutHOC path="/about" exact component={AboutPage} />
       <PhotosHOC path="/gallery" exact component={PhotoPage} />
-      <HomeHOC path="/donateUs" exact component={DonateUsPage} />
+      <AboutHOC path="/donateUs" exact component={DonateUsPage} />
     </>
 
   );

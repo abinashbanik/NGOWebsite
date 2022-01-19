@@ -9,7 +9,7 @@ const PhotosPage = () => {
                 <img
                     src={HeroImage}
                     alt="logo"
-                    className="w-full mt-5 h-80 rounded-md"
+                    className="w-full mt-5 h-80 rounded-md md:hidden"
                 />
             </div>
             <Photos />

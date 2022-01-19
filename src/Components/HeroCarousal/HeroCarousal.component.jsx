@@ -23,9 +23,9 @@ const HeroCarousal = () => {
   };
 
   const images = [
-    "https://media.istockphoto.com/photos/colored-powder-explosion-on-black-background-picture-id1057506940?k=20&m=1057506940&s=612x612&w=0&h=3j5EA6YFVg3q-laNqTGtLxfCKVR3_o6gcVZZseNaWGk=",
-    "https://images.unsplash.com/photo-1626128665085-483747621778?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=610&q=80",
-    "https://images.unsplash.com/photo-1622495894321-010d1e6db2a9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2775&q=80",
+    "https://lh3.ggpht.com/p/AF1QipMsaZXZy-UBVtI86UyjLJxr2KUXvCMGpU2RpWCK=s1536",
+    "https://lh3.ggpht.com/p/AF1QipPjedPRQ2QWi7DJSZnLA_BZ0b-0iQlB0VT8-R-d=s1536",
+    "https://lh3.ggpht.com/p/AF1QipM5VsgHVUtxZY9cTjyJOGFcLyZu2ep9Qk09avjd=s1536",
     "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg",
     "https://imgd.aeplcdn.com/1056x594/n/cw/ec/44407/kiger-exterior-right-front-three-quarter-12.jpeg?q=85&wm=1",
     "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg",

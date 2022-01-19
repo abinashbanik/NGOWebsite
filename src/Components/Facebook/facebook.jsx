@@ -15,7 +15,7 @@ const Feed = React.memo((props) => {
     }, []);
 
     return (
-        <React.Fragment>
+        <React.Fragment className="rounded-lg">
             <div id="fb-root"></div>
             <div
                 class="fb-page"
@@ -24,15 +24,18 @@ const Feed = React.memo((props) => {
                 data-width="360"
                 data-height=""
                 data-small-header="false"
-                data-adapt-container-width="true"
-                data-hide-cover="false"
+                data-adapt-container-width="false"
+                data-hide-cover="true"
                 data-show-facepile="true"
+                className="rounded-lg"
+
             >
                 <blockquote
                     cite="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/"
                     class="fb-xfbml-parse-ignore"
+                    className="rounded-lg"
                 >
-                    <a href="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/">"Malancha"(Sahitya, Sanskriti & Samajik Kendra)</a>
+                    <a className="rounded-lg" href="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/">"Malancha"(Sahitya, Sanskriti & Samajik Kendra)</a>
                 </blockquote>
             </div>
         </React.Fragment>

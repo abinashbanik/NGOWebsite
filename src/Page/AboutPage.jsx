@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HeroImage from "../Components/Resources/HeroImage.png";
+import Mapview from '../Components/MapContainer/mapindex';
 const AboutPage = () => {
     return (
         <div className="mx-4 ">
@@ -11,7 +12,7 @@ const AboutPage = () => {
                     className="w-full mt-5 h-80 rounded-md"
                 />
             </div>
-            <div className="mx-4 md:mx-20 ">
+            <div className="mx-4 md:mx-20 lg:mx-40">
                 <p className="my-8 text-justify">
                     <h6>Malancha (A Social Welfare Society) established in Agartala, Tripura, with a mission to help people &
                         sincerely working with the society for betterment of the society. We are working for those people who really need help.
@@ -91,6 +92,12 @@ const AboutPage = () => {
                     </div>
                 </div>
             </div>
+            {/* <aside
+                style={{ height: "fit-content", width: "fit-content" }}
+                className="hidden md:flex md:w-4/12 sticky rounded-xl top-2 bg-white p-3 shadow-md flex flex-col gap-4"
+            >
+                <Mapview className="bg-gray-900" />
+            </aside> */}
         </div>
     );
 };

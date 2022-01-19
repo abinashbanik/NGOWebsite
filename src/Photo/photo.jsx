@@ -6,18 +6,16 @@ const Photos = () => {
     const [currentImage, setCurrentImage] = useState(0);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
     const photos = [
-        'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg',
-        'https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80',
-        'https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg',
-        'https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg',
-        'https://cdn.theatlantic.com/media/img/photo/2018/10/images-of-the-season-fall-is-in-the/f02_RTX6EJJJ-1/original.jpg',
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmhTGRptOs8HVpubjc-U6FgJnaQwvSPNm0Q&usqp=CAU',
-        'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg',
-        'https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80',
-        'https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg',
-        'https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg',
-        'https://cdn.theatlantic.com/media/img/photo/2018/10/images-of-the-season-fall-is-in-the/f02_RTX6EJJJ-1/original.jpg',
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmhTGRptOs8HVpubjc-U6FgJnaQwvSPNm0Q&usqp=CAU',
+        'https://lh3.ggpht.com/p/AF1QipO1LzzjxOugb0Oz3P-l_DHJB5ajfYh1b4V6Piqf=s1536',
+        'https://lh3.ggpht.com/p/AF1QipO2myFcBoiDSgx5l5jcr1k5vcO5t-kO6MyDSUQM=s1024',
+        'https://lh3.ggpht.com/p/AF1QipPFLfBkhHpQOchVh6BMHgarPO_Z3bxv1KdrqJ8k=s1536',
+        'https://lh3.ggpht.com/p/AF1QipPjedPRQ2QWi7DJSZnLA_BZ0b-0iQlB0VT8-R-d=s1536',
+        'https://lh3.ggpht.com/p/AF1QipNI8bTZquoXTJk0xnoDLMJX1aelHeXcasRd0VzU=s1536',
+        'https://lh3.ggpht.com/p/AF1QipM5VsgHVUtxZY9cTjyJOGFcLyZu2ep9Qk09avjd=s1536',
+        'https://lh3.ggpht.com/p/AF1QipNMwvrG0BOMkox0dddlSbua1VHfB9FKDanerpyr=s1536',
+        'https://lh3.ggpht.com/p/AF1QipMZwfjJOp1OOZn9fM2-fxodMyPtdFQpre6B18fj=s1536',
+        'https://lh3.ggpht.com/p/AF1QipMsaZXZy-UBVtI86UyjLJxr2KUXvCMGpU2RpWCK=s1536',
+
 
     ];
 
