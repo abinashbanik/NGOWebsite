@@ -23,12 +23,16 @@ const HeroCarousal = () => {
   };
 
   const images = [
-    "https://lh3.ggpht.com/p/AF1QipMsaZXZy-UBVtI86UyjLJxr2KUXvCMGpU2RpWCK=s1536",
-    "https://lh3.ggpht.com/p/AF1QipPjedPRQ2QWi7DJSZnLA_BZ0b-0iQlB0VT8-R-d=s1536",
-    "https://lh3.ggpht.com/p/AF1QipM5VsgHVUtxZY9cTjyJOGFcLyZu2ep9Qk09avjd=s1536",
-    "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg",
-    "https://imgd.aeplcdn.com/1056x594/n/cw/ec/44407/kiger-exterior-right-front-three-quarter-12.jpeg?q=85&wm=1",
-    "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg",
+    'https://lh3.ggpht.com/p/AF1QipO1LzzjxOugb0Oz3P-l_DHJB5ajfYh1b4V6Piqf=s1536',
+    'https://lh3.ggpht.com/p/AF1QipO2myFcBoiDSgx5l5jcr1k5vcO5t-kO6MyDSUQM=s1024',
+    'https://lh3.ggpht.com/p/AF1QipPFLfBkhHpQOchVh6BMHgarPO_Z3bxv1KdrqJ8k=s1536',
+    'https://lh3.ggpht.com/p/AF1QipPjedPRQ2QWi7DJSZnLA_BZ0b-0iQlB0VT8-R-d=s1536',
+    'https://lh3.ggpht.com/p/AF1QipNI8bTZquoXTJk0xnoDLMJX1aelHeXcasRd0VzU=s1536',
+    'https://lh3.ggpht.com/p/AF1QipM5VsgHVUtxZY9cTjyJOGFcLyZu2ep9Qk09avjd=s1536',
+    'https://lh3.ggpht.com/p/AF1QipNMwvrG0BOMkox0dddlSbua1VHfB9FKDanerpyr=s1536',
+    'https://lh3.ggpht.com/p/AF1QipMZwfjJOp1OOZn9fM2-fxodMyPtdFQpre6B18fj=s1536',
+    'https://lh3.ggpht.com/p/AF1QipMsaZXZy-UBVtI86UyjLJxr2KUXvCMGpU2RpWCK=s1536',
+
   ];
 
   return (
