@@ -1,4 +1,7 @@
+
 import React from 'react'
+import { ImFacebook2 } from "react-icons/im";
+
 
 const Feed = React.memo((props) => {
     React.useEffect(() => {
@@ -15,7 +18,7 @@ const Feed = React.memo((props) => {
     }, []);
 
     return (
-        <React.Fragment className="rounded-lg">
+        <React.Fragment>
             <div id="fb-root"></div>
             <div
                 class="fb-page"
@@ -25,24 +28,17 @@ const Feed = React.memo((props) => {
                 data-height=""
                 data-small-header="false"
                 data-adapt-container-width="false"
-                data-hide-cover="true"
+                data-hide-cover="false"
                 data-show-facepile="true"
-                className="rounded-lg"
-
             >
                 <blockquote
                     cite="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/"
                     class="fb-xfbml-parse-ignore"
-                    className="rounded-lg"
                 >
-                    <a className="rounded-lg" href="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/">"Malancha"(Sahitya, Sanskriti & Samajik Kendra)</a>
+                    <button><a className=" rounded-lg text-blue-500 " href="https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/">"Malancha"(Sahitya, Sanskriti & Samajik Kendra)<ImFacebook2 color="blue" className="mx-40 md:mx-10" /></a></button>
                 </blockquote>
             </div>
         </React.Fragment>
     );
 });
 export default Feed;
-
-
-//"Malancha"(Sahitya, Sanskriti & Samajik Kendra)
-//https://www.facebook.com/Malancha-Sahitya-Sanskriti-Samajik-Kendra-106866828470434/

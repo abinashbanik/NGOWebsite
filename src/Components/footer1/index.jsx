@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll'
 import { SiGooglemaps } from "react-icons/si";
+import { ImFacebook2 } from "react-icons/im";
 const Footer1 = () => {
     return (
         <>
